@@ -1,0 +1,8 @@
+---
+- name: Sysprep playbook for RHEL 8
+  hosts: all
+  become: true
+
+  roles:
+    - sysprep-rhel8
+
